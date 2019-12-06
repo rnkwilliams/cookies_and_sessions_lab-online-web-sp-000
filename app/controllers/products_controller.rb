@@ -8,5 +8,4 @@ class ProductsController < ApplicationController
     cart << params[:product]
     render :index
   end
-    
 end
